@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.my-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.my-header__title {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.my-header__nav {
+  margin-top: 10px;
+}
+
+.my-header__menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.my-header__menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  transition: background 0.3s;
+}
+
+.my-header__menu li a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
